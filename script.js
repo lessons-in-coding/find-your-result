@@ -288,8 +288,8 @@ function filterResults() {
 
 function triggerFireworks() {
   const fireworksContainer = document.getElementById("fireworks-container");
-  // const fireworksSound = document.getElementById('fireworksSound');
-  // fireworksSound.play();
+  const fireworksSound = document.getElementById("fireworksSound");
+  fireworksSound.play();
 
   const colors = [
     "#ff0000",
