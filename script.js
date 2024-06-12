@@ -275,7 +275,8 @@ function filterResults() {
 
       const congratsMessage = document.createElement("p");
       congratsMessage.className = "congratulations-message";
-      congratsMessage.textContent = "Congratulations on your performance!";
+      congratsMessage.textContent =
+        "စုစုပေါင်းရမှတ်ကိုတည် ၄၀၀-နဲ့စား၊ ၁၀၀-နဲ့မြှောက်၊ ရလာတဲ့အဖြက 75%-အထက်ဆိုယင် အောင်ပါတယ်! ပျော်ရွှင်ချမ်းမြေ့ပါစေ!";
       resultCard.appendChild(congratsMessage);
 
       resultsContainer.appendChild(resultCard);
