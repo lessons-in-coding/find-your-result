@@ -63,15 +63,6 @@ const students = [
     ],
   },
   {
-    name: "ဇင်ကို",
-    results: [
-      { subject: "Class Activities", score: 50, grade: "C" },
-      { subject: "Module Projects", score: 50, grade: "C" },
-      { subject: "Module Challenges", score: 50, grade: "C" },
-      { subject: "Final Project", score: 50, grade: "-" },
-    ],
-  },
-  {
     name: "ခိုင်သဇင်",
     results: [
       { subject: "Class Activities", score: 80, grade: "A" },
