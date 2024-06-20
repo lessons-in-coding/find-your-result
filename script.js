@@ -5,7 +5,7 @@ const students = [
       { subject: "Class Activities", score: 100, grade: "A" },
       { subject: "Module Projects", score: 35, grade: "C" },
       { subject: "Module Challenges", score: 85, grade: "A" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -14,7 +14,7 @@ const students = [
       { subject: "Class Activities", score: 95, grade: "A" },
       { subject: "Module Projects", score: 85, grade: "A" },
       { subject: "Module Challenges", score: 75, grade: "B" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -23,7 +23,7 @@ const students = [
       { subject: "Class Activities", score: 78, grade: "A" },
       { subject: "Module Projects", score: 54, grade: "B" },
       { subject: "Module Challenges", score: 80, grade: "A" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -32,7 +32,7 @@ const students = [
       { subject: "Class Activities", score: 75, grade: "B" },
       { subject: "Module Projects", score: 57, grade: "B" },
       { subject: "Module Challenges", score: 59, grade: "B" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -41,7 +41,7 @@ const students = [
       { subject: "Class Activities", score: 88, grade: "A" },
       { subject: "Module Projects", score: 70, grade: "B" },
       { subject: "Module Challenges", score: 69, grade: "B" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -50,7 +50,7 @@ const students = [
       { subject: "Class Activities", score: 100, grade: "A" },
       { subject: "Module Projects", score: 70, grade: "B" },
       { subject: "Module Challenges", score: 85, grade: "A" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -59,7 +59,7 @@ const students = [
       { subject: "Class Activities", score: 50, grade: "C" },
       { subject: "Module Projects", score: 50, grade: "C" },
       { subject: "Module Challenges", score: 50, grade: "C" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -68,7 +68,7 @@ const students = [
       { subject: "Class Activities", score: 80, grade: "A" },
       { subject: "Module Projects", score: 50, grade: "C" },
       { subject: "Module Challenges", score: 50, grade: "C" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -77,7 +77,7 @@ const students = [
       { subject: "Class Activities", score: 100, grade: "A" },
       { subject: "Module Projects", score: 93, grade: "A" },
       { subject: "Module Challenges", score: 80, grade: "A" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -86,7 +86,7 @@ const students = [
       { subject: "Class Activities", score: 95, grade: "A" },
       { subject: "Module Projects", score: 93, grade: "A" },
       { subject: "Module Challenges", score: 80, grade: "A" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -95,7 +95,7 @@ const students = [
       { subject: "Class Activities", score: 45, grade: "C" },
       { subject: "Module Projects", score: 43, grade: "C" },
       { subject: "Module Challenges", score: 40, grade: "C" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -104,7 +104,7 @@ const students = [
       { subject: "Class Activities", score: 55, grade: "B" },
       { subject: "Module Projects", score: 55, grade: "B" },
       { subject: "Module Challenges", score: 50, grade: "C" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -113,7 +113,7 @@ const students = [
       { subject: "Class Activities", score: 55, grade: "B" },
       { subject: "Module Projects", score: 50, grade: "C" },
       { subject: "Module Challenges", score: 50, grade: "C" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -122,7 +122,7 @@ const students = [
       { subject: "Class Activities", score: 0, grade: "E" },
       { subject: "Module Projects", score: 0, grade: "E" },
       { subject: "Module Challenges", score: 0, grade: "E" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -131,7 +131,7 @@ const students = [
       { subject: "Class Activities", score: 0, grade: "E" },
       { subject: "Module Projects", score: 0, grade: "E" },
       { subject: "Module Challenges", score: 0, grade: "E" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -140,7 +140,7 @@ const students = [
       { subject: "Class Activities", score: 35, grade: "C" },
       { subject: "Module Projects", score: 30, grade: "C" },
       { subject: "Module Challenges", score: 30, grade: "D" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -149,7 +149,7 @@ const students = [
       { subject: "Class Activities", score: 0, grade: "E" },
       { subject: "Module Projects", score: 0, grade: "E" },
       { subject: "Module Challenges", score: 0, grade: "E" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -158,7 +158,7 @@ const students = [
       { subject: "Class Activities", score: 45, grade: "C" },
       { subject: "Module Projects", score: 40, grade: "C" },
       { subject: "Module Challenges", score: 40, grade: "C" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -167,7 +167,7 @@ const students = [
       { subject: "Class Activities", score: 45, grade: "C" },
       { subject: "Module Projects", score: 40, grade: "C" },
       { subject: "Module Challenges", score: 40, grade: "C" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -176,7 +176,7 @@ const students = [
       { subject: "Class Activities", score: 35, grade: "C" },
       { subject: "Module Projects", score: 30, grade: "D" },
       { subject: "Module Challenges", score: 30, grade: "D" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
@@ -185,7 +185,7 @@ const students = [
       { subject: "Class Activities", score: 0, grade: "E" },
       { subject: "Module Projects", score: 0, grade: "E" },
       { subject: "Module Challenges", score: 0, grade: "E" },
-      { subject: "Final Project", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
 ];
