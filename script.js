@@ -3,7 +3,7 @@ const students = [
     name: "ယမင်းခင်",
     results: [
       { subject: "Class Activities", score: 100, grade: "A" },
-      { subject: "Module Projects", score: 35, grade: "C" },
+      { subject: "Module Projects", score: 45, grade: "C" },
       { subject: "Module Challenges", score: 85, grade: "A" },
       { subject: "Final Project", score: 100, grade: "A" },
     ],
@@ -56,7 +56,7 @@ const students = [
   {
     name: "ပညောဘာသ",
     results: [
-      { subject: "Class Activities", score: 50, grade: "C" },
+      { subject: "Class Activities", score: 60, grade: "C" },
       { subject: "Module Projects", score: 50, grade: "C" },
       { subject: "Module Challenges", score: 50, grade: "C" },
       { subject: "Final Project", score: 100, grade: "A" },
@@ -92,23 +92,77 @@ const students = [
   {
     name: "ဇဝန",
     results: [
-      { subject: "Class Activities", score: 45, grade: "C" },
-      { subject: "Module Projects", score: 43, grade: "C" },
-      { subject: "Module Challenges", score: 40, grade: "C" },
+      { subject: "Class Activities", score: 50, grade: "C" },
+      { subject: "Module Projects", score: 50, grade: "C" },
+      { subject: "Module Challenges", score: 50, grade: "C" },
       { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
     name: "အင်္ကုရ",
     results: [
-      { subject: "Class Activities", score: 55, grade: "B" },
-      { subject: "Module Projects", score: 55, grade: "B" },
+      { subject: "Class Activities", score: 70, grade: "B" },
+      { subject: "Module Projects", score: 65, grade: "B" },
       { subject: "Module Challenges", score: 50, grade: "C" },
       { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
     name: "နှင်းနုလှိုင်",
+    results: [
+      { subject: "Class Activities", score: 65, grade: "B" },
+      { subject: "Module Projects", score: 60, grade: "C" },
+      { subject: "Module Challenges", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
+    ],
+  },
+  {
+    name: "ဝိုင်းရွှေရည်",
+    results: [
+      { subject: "Class Activities", score: 25, grade: "E" },
+      { subject: "Module Projects", score: 25, grade: "E" },
+      { subject: "Module Challenges", score: 25, grade: "E" },
+      { subject: "Final Project", score: 100, grade: "A" },
+    ],
+  },
+  {
+    name: "ငြိမ်းရွှေရည်",
+    results: [
+      { subject: "Class Activities", score: 25, grade: "E" },
+      { subject: "Module Projects", score: 25, grade: "E" },
+      { subject: "Module Challenges", score: 25, grade: "E" },
+      { subject: "Final Project", score: 100, grade: "A" },
+    ],
+  },
+  {
+    name: "ရွှေရည်သိမ့်",
+    results: [
+      { subject: "Class Activities", score: 45, grade: "C" },
+      { subject: "Module Projects", score: 40, grade: "C" },
+      { subject: "Module Challenges", score: 40, grade: "D" },
+      { subject: "Final Project", score: 100, grade: "A" },
+    ],
+  },
+  {
+    name: "ဆုထက်သာ",
+    results: [
+      { subject: "Class Activities", score: 25, grade: "E" },
+      { subject: "Module Projects", score: 25, grade: "E" },
+      { subject: "Module Challenges", score: 25, grade: "E" },
+      { subject: "Final Project", score: 100, grade: "A" },
+    ],
+  },
+  {
+    name: "စိန်မင်း",
+    results: [
+      { subject: "Class Activities", score: 65, grade: "B" },
+      { subject: "Module Projects", score: 50, grade: "C" },
+      { subject: "Module Challenges", score: 50, grade: "C" },
+      { subject: "Final Project", score: 100, grade: "A" },
+    ],
+  },
+  {
+    name: "သူရဖြိုး",
     results: [
       { subject: "Class Activities", score: 55, grade: "B" },
       { subject: "Module Projects", score: 50, grade: "C" },
@@ -117,74 +171,20 @@ const students = [
     ],
   },
   {
-    name: "ဝိုင်းရွှေရည်",
-    results: [
-      { subject: "Class Activities", score: 0, grade: "E" },
-      { subject: "Module Projects", score: 0, grade: "E" },
-      { subject: "Module Challenges", score: 0, grade: "E" },
-      { subject: "Final Project", score: 100, grade: "A" },
-    ],
-  },
-  {
-    name: "ငြိမ်းရွှေရည်",
-    results: [
-      { subject: "Class Activities", score: 0, grade: "E" },
-      { subject: "Module Projects", score: 0, grade: "E" },
-      { subject: "Module Challenges", score: 0, grade: "E" },
-      { subject: "Final Project", score: 100, grade: "A" },
-    ],
-  },
-  {
-    name: "ရွှေရည်သိမ့်",
-    results: [
-      { subject: "Class Activities", score: 35, grade: "C" },
-      { subject: "Module Projects", score: 30, grade: "C" },
-      { subject: "Module Challenges", score: 30, grade: "D" },
-      { subject: "Final Project", score: 100, grade: "A" },
-    ],
-  },
-  {
-    name: "ဆုထက်သာ",
-    results: [
-      { subject: "Class Activities", score: 0, grade: "E" },
-      { subject: "Module Projects", score: 0, grade: "E" },
-      { subject: "Module Challenges", score: 0, grade: "E" },
-      { subject: "Final Project", score: 100, grade: "A" },
-    ],
-  },
-  {
-    name: "စိန်မင်း",
-    results: [
-      { subject: "Class Activities", score: 45, grade: "C" },
-      { subject: "Module Projects", score: 40, grade: "C" },
-      { subject: "Module Challenges", score: 40, grade: "C" },
-      { subject: "Final Project", score: 100, grade: "A" },
-    ],
-  },
-  {
-    name: "သူရဖြိုး",
-    results: [
-      { subject: "Class Activities", score: 45, grade: "C" },
-      { subject: "Module Projects", score: 40, grade: "C" },
-      { subject: "Module Challenges", score: 40, grade: "C" },
-      { subject: "Final Project", score: 100, grade: "A" },
-    ],
-  },
-  {
     name: "ဇင်ကို",
     results: [
-      { subject: "Class Activities", score: 35, grade: "C" },
-      { subject: "Module Projects", score: 30, grade: "D" },
-      { subject: "Module Challenges", score: 30, grade: "D" },
+      { subject: "Class Activities", score: 45, grade: "C" },
+      { subject: "Module Projects", score: 40, grade: "D" },
+      { subject: "Module Challenges", score: 40, grade: "D" },
       { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
   {
     name: "ဥက္ကာမိုး",
     results: [
-      { subject: "Class Activities", score: 0, grade: "E" },
-      { subject: "Module Projects", score: 0, grade: "E" },
-      { subject: "Module Challenges", score: 0, grade: "E" },
+      { subject: "Class Activities", score: 25, grade: "E" },
+      { subject: "Module Projects", score: 25, grade: "E" },
+      { subject: "Module Challenges", score: 25, grade: "E" },
       { subject: "Final Project", score: 100, grade: "A" },
     ],
   },
